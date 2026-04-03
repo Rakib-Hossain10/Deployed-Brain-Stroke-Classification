@@ -42,7 +42,7 @@ MODELS_DIR = os.path.join(BACKEND_DIR, "models")
 # -------------------------------
 
 # Full path to the trained Keras model file.
-MODEL_PATH = os.path.join(MODELS_DIR, "BrainStroke_resnet50.keras")
+MODEL_PATH = os.path.join(MODELS_DIR, "BrainStroke_resnet50_inference.keras")
 
 # Full path to the metadata JSON file.
 METADATA_PATH = os.path.join(MODELS_DIR, "BrainStroke_resnet50_metadata.json")
