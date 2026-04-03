@@ -1,0 +1,63 @@
+# -----------------------------
+# Python cache files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+myvenv/
+venv/
+env/
+.venv/
+
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Environment variable files
+# -----------------------------
+.env
+
+# -----------------------------
+# OS / editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Python build / packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Test / coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -----------------------------
+# Streamlit cache or temp files
+# -----------------------------
+.streamlit/secrets.toml
+
+# -----------------------------
+# Optional: ignore model file if too large for GitHub
+# Uncomment these lines ONLY if you do NOT want to upload model files to GitHub
+# -----------------------------
+# backend/models/BrainStroke_resnet50.keras
+# backend/models/BrainStroke_resnet50_metadata.json
